@@ -49,7 +49,7 @@ func NewServer(addr string, port uint16, clients []*pihole.Client) *Server {
 	})
 
 	mux.Handle("/readiness", s.readinessHandler())
-	mux.Handle("/liveness", s.livenessHandler())
+	mux.Handle("/", s.livenessHandler())
 
 	return s
 }
