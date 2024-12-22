@@ -3,10 +3,10 @@ package main
 import (
 	"log"
 
-	"github.com/eko/pihole-exporter/config"
-	"github.com/eko/pihole-exporter/internal/metrics"
-	"github.com/eko/pihole-exporter/internal/pihole"
-	"github.com/eko/pihole-exporter/internal/server"
+	"github.com/nicolalamacchia/pihole-exporter/config"
+	"github.com/nicolalamacchia/pihole-exporter/internal/metrics"
+	"github.com/nicolalamacchia/pihole-exporter/internal/pihole"
+	"github.com/nicolalamacchia/pihole-exporter/internal/server"
 	"github.com/xonvanetta/shutdown/pkg/shutdown"
 )
 
